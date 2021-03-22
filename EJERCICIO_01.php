@@ -37,9 +37,9 @@
 	}
 	?>
 	
-	<form action="Suma1.php" method="POST">
-		Numero 1? <input type="text" name="textN1" size="10" value="<?php echo $numero1;?>" />
-		Numero 2? <input type="text" name="textN2" size="10" value="<?php echo $numero2;?>" />
+	<form action="EJERCICIO_01.php" method="POST">
+		Numero 1? <input type="text" name="txtN1" size="10" value="<?php echo $numero1;?>" />
+		Numero 2? <input type="text" name="txtN2" size="10" value="<?php echo $numero2;?>" />
 		Resultado: <input type="text" name="textR" size="10" value="<?php echo $suma;?>" disabled/>
 		Mensaje: <input type="text" name="textR" size="10" value="<?php echo $mensaje;?>" disabled/>
 		<input type="submit" value="Sumar" name="subSumar" />
